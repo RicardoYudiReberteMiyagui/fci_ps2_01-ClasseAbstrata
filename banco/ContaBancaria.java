@@ -26,4 +26,8 @@ public class ContaBancaria {
         return "Conta de " + nomeCorrentista 
             + " com saldo de R$ " + String.format("%.2f", saldo);
     }
+
+    public void aumentarLimite(double limite) {
+        
+    }
 }

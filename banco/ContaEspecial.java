@@ -23,4 +23,9 @@ public class ContaEspecial extends ContaBancaria {
         return super.toString() 
             + " e com limite de R$ " + String.format("%.2f", limite);
     }    
+
+
+    public void aumentarLimite(double limite) {
+        this.limite = this.limite+ limite;
+    }
 }
